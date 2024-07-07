@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+}
+
+.container{
+   max-width: 1240px;
+   width: 100%;
+   margin: 0px auto;
+}
+
+.header{
+    background-color: #f2f2f9;
+    width: 100%;
+}
+
+.header__container{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.deskription .title{
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 47px;
+    color: #6F4FF2;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.deskription .text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 22px;
+}
+
+.deskription .search{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 121px;
+
+    background-color: #cecece;
+    border-radius: 20px;
+    
+}
+
+.deskription .search input{   
+    border: none;
+    background-color: transparent;
+}
+
+.deskription .search input:focus{
+    outline: none;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 8px;
+    background-color: #6F4FF2;
+    padding: 10px 24px;
+    transition: all 0.5s linear;
+
+    color: #fff;
+}
+
+.button a:hover{
+   background-color: #fff;
+   color: #6F4FF2;
+}
+
+.hero{
+    background-color: #000;
+    width: 100%;
+    padding: 84px;
+}
+
+.hero__container{
+    margin-bottom: 70px;
+}
+
+.hero-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr{
+    margin: 32px;
+    border: 1.5px solid #D3D4D6;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon a{
+    cursor: pointer;
+    padding: 11px;
+    border-radius: 29px;
+    background-color: #6F4FF2;
+}
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Lorem{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.Explore{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Explore h5{
+    color: #6F4FF2;
+    margin-bottom: 10px;
+}
+
+.Explore h6{
+    margin-bottom: 10px;
+     font-size: 14px;
+     line-height: 19px;
+}
+
